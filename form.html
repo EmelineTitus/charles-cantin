@@ -42,7 +42,10 @@
 </header>
 
     <body>
-        <form name="contact" method="POST" data-netlify="true"  action="/pages/success">
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="subject" 
+            value="Sales inquiry from mysitename.netlify.app" />
+            <p>
         
             <section class="mb-4" style="padding-left: 60px;">
 
@@ -72,12 +75,17 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Votre prénom</label>
+                                        <input type="text" id="surname" name="surname" class="form-control">
+                                        <label for="surname" class="">Votre prénom</label>
                                     </div>
                                 </div>
                                 <!--Grid column-->
-            
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Email</label>
+                                    </div>
+                                </div>
                             </div>
                             <!--Grid row-->
             
