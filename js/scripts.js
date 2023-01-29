@@ -63,3 +63,9 @@ window.onload = () => {
         });
     }
 }
+
+{
+    "scripts": {
+      "build": "npx @11ty/eleventy"
+    }
+  }
